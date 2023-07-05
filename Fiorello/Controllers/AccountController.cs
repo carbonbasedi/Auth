@@ -1,4 +1,5 @@
-﻿using Fiorello.Models;
+﻿using Fiorello.Enums;
+using Fiorello.Models;
 using Fiorello.ViewModels.Account;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -9,11 +10,15 @@ namespace Fiorello.Controllers
 	{
 		private readonly UserManager<User> _userManager;
 		private readonly SignInManager<User> _signInManager;
+		private readonly RoleManager<IdentityRole> _roleManager;
 
-		public AccountController(UserManager<User> userManager,SignInManager<User> signInManager)
+		public AccountController(UserManager<User> userManager,
+								SignInManager<User> signInManager,
+								RoleManager<IdentityRole> roleManager)
 		{
 			_userManager = userManager;
 			_signInManager = signInManager;
+			_roleManager = roleManager;
 		}
 		[HttpGet]
 		public IActionResult Register()
@@ -22,7 +27,7 @@ namespace Fiorello.Controllers
 		}
 
 		[HttpPost]
-		public IActionResult Register(AccountRegisterVM model)
+		public async Task<IActionResult> Register(AccountRegisterVM model)
 		{
 			if(!ModelState.IsValid) return View();
 
@@ -35,7 +40,7 @@ namespace Fiorello.Controllers
 				PhoneNumber = model.PhoneNumber,
 			};
 
-			var result = _userManager.CreateAsync(user, model.Password).Result;
+			var result = await _userManager.CreateAsync(user, model.Password);
 
 			if(!result.Succeeded)
 			{
@@ -45,6 +50,7 @@ namespace Fiorello.Controllers
 				return View();
 			}
 
+			await _userManager.AddToRoleAsync(user, UserRoles.User.ToString());
 			return RedirectToAction(nameof(Login));
 		}
 
@@ -55,11 +61,11 @@ namespace Fiorello.Controllers
 		}
 
 		[HttpPost]
-		public IActionResult Login(AccountLoginVM model)
+		public async Task<IActionResult> Login(AccountLoginVM model)
 		{
 			if (!ModelState.IsValid) return View();
 
-			var user = _userManager.FindByNameAsync(model.Username).Result;
+			var user = await _userManager.FindByNameAsync(model.Username);
 
 			if(user is null)
 			{
@@ -67,7 +73,7 @@ namespace Fiorello.Controllers
 				return View();
 			}
 
-			var result = _signInManager.PasswordSignInAsync(user, model.Password, false, false).Result;
+			var result = await _signInManager.PasswordSignInAsync(user, model.Password, false, false);
 			if(!result.Succeeded)
 			{
 				ModelState.AddModelError(string.Empty, "Username or password is incorrect"); 
@@ -81,9 +87,9 @@ namespace Fiorello.Controllers
 		}
 
 		[HttpGet]
-		public IActionResult Logout()
+		public async Task<IActionResult> Logout()
 		{
-			_signInManager.SignOutAsync();
+			await _signInManager.SignOutAsync();
 			return RedirectToAction(nameof(Login));
 		}
 	}

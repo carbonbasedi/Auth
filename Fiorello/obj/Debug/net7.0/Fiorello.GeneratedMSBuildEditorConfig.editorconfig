@@ -96,6 +96,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcUHJvZHVjdFxVcGRhdGVQaG90by5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/rusla/source/repos/Fiorello/Fiorello/Areas/admin/Views/Role/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcUm9sZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rusla/source/repos/Fiorello/Fiorello/Areas/admin/Views/Role/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcUm9sZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rusla/source/repos/Fiorello/Fiorello/Areas/admin/Views/Role/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcUm9sZVxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/rusla/source/repos/Fiorello/Fiorello/Areas/admin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,5 +1,6 @@
 using Fiorello.DAL;
 using Fiorello.Models;
+using Fiorello.Utilities;
 using Fiorello.Utilities.File;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -20,14 +21,24 @@ builder.Services.AddIdentity<User, IdentityRole>(options =>
 builder.Services.AddSingleton<IFileService, FileService>();
 
 var app = builder.Build();
-
 app.MapControllerRoute(
 	name: "areas",
 	pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
 );
 
 app.MapDefaultControllerRoute();
+
 app.UseStaticFiles();
+
 app.UseAuthentication();
 app.UseAuthorization();
+
+using (var scope = app.Services.CreateScope())
+{
+	var roleManager = scope.ServiceProvider.GetService<RoleManager<IdentityRole>>();
+	var userManager = scope.ServiceProvider.GetService<UserManager<User>>();
+	await DbInitializer.SeedAsync(roleManager, userManager);
+}
+
+
 app.Run();

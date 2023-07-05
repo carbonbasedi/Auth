@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Fiorello.Areas.admin.Controllers
 {
@@ -6,6 +7,7 @@ namespace Fiorello.Areas.admin.Controllers
     {
         [Area("admin")]
         [Route("admin/dashboard/{action=index}")]
+        [Authorize(Roles ="SuperAdmin, Admin, MAnager, HR")]
         public IActionResult Index()
         {
             return View();
