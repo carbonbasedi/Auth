@@ -8,12 +8,14 @@ namespace Fiorello.Controllers
 	public class AccountController : Controller
 	{
 		private readonly UserManager<User> _userManager;
+		private readonly SignInManager<User> _signInManager;
 
-		public AccountController(UserManager<User> userManager)
-        {
+		public AccountController(UserManager<User> userManager,SignInManager<User> signInManager)
+		{
 			_userManager = userManager;
+			_signInManager = signInManager;
 		}
-        [HttpGet]
+		[HttpGet]
 		public IActionResult Register()
 		{
 			return View();
@@ -49,7 +51,40 @@ namespace Fiorello.Controllers
 		[HttpGet]
 		public IActionResult Login()
 		{
-			return Ok();
+			return View();
+		}
+
+		[HttpPost]
+		public IActionResult Login(AccountLoginVM model)
+		{
+			if (!ModelState.IsValid) return View();
+
+			var user = _userManager.FindByNameAsync(model.Username).Result;
+
+			if(user is null)
+			{
+				ModelState.AddModelError(string.Empty, "Username or password is incorrect");
+				return View();
+			}
+
+			var result = _signInManager.PasswordSignInAsync(user, model.Password, false, false).Result;
+			if(!result.Succeeded)
+			{
+				ModelState.AddModelError(string.Empty, "Username or password is incorrect"); 
+				return View();
+			}
+
+			if (!string.IsNullOrEmpty(model.ReturnUrl) && Url.IsLocalUrl(model.ReturnUrl))
+				return Redirect(model.ReturnUrl);
+
+			return RedirectToAction(nameof(Index),"home");
+		}
+
+		[HttpGet]
+		public IActionResult Logout()
+		{
+			_signInManager.SignOutAsync();
+			return RedirectToAction(nameof(Login));
 		}
 	}
 }
