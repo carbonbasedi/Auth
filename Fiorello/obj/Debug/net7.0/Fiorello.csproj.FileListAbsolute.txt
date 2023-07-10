@@ -6,7 +6,6 @@ C:\Users\rusla\source\repos\Fiorello\Fiorello\obj\Debug\net7.0\Fiorello.csproj.C
 C:\Users\rusla\source\repos\Fiorello\Fiorello\obj\Debug\net7.0\Fiorello.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\rusla\source\repos\Fiorello\Fiorello\obj\Debug\net7.0\Fiorello.RazorAssemblyInfo.cache
 C:\Users\rusla\source\repos\Fiorello\Fiorello\obj\Debug\net7.0\Fiorello.RazorAssemblyInfo.cs
-C:\Users\rusla\source\repos\Fiorello\Fiorello\bin\Debug\net7.0\appsettings.Development.json
 C:\Users\rusla\source\repos\Fiorello\Fiorello\bin\Debug\net7.0\appsettings.json
 C:\Users\rusla\source\repos\Fiorello\Fiorello\bin\Debug\net7.0\Fiorello.exe
 C:\Users\rusla\source\repos\Fiorello\Fiorello\bin\Debug\net7.0\Fiorello.deps.json
@@ -255,3 +254,7 @@ C:\Users\rusla\source\repos\Fiorello\Fiorello\bin\Debug\net7.0\Microsoft.AspNetC
 C:\Users\rusla\source\repos\Fiorello\Fiorello\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\rusla\source\repos\Fiorello\Fiorello\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\rusla\source\repos\Fiorello\Fiorello\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\rusla\source\repos\Fiorello\Fiorello\bin\Debug\net7.0\MailKit.dll
+C:\Users\rusla\source\repos\Fiorello\Fiorello\bin\Debug\net7.0\MimeKit.dll
+C:\Users\rusla\source\repos\Fiorello\Fiorello\bin\Debug\net7.0\NETCore.MailKit.dll
+C:\Users\rusla\source\repos\Fiorello\Fiorello\bin\Debug\net7.0\BouncyCastle.Crypto.dll

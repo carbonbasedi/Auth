@@ -5,6 +5,7 @@
 		User,
 		Admin,
 		SuperAdmin,
-		HR
+		HR,
+		Manager
 	}
 }

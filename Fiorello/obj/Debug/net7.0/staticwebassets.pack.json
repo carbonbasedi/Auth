@@ -1,12 +1,324 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\css\\main.css",
+      "PackagePath": "staticwebassets\\admin\\css\\main.css"
+    },
+    {
       "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\css\\sb-admin-2.css",
       "PackagePath": "staticwebassets\\admin\\css\\sb-admin-2.css"
     },
     {
       "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\css\\sb-admin-2.min.css",
       "PackagePath": "staticwebassets\\admin\\css\\sb-admin-2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\css\\util.css",
+      "PackagePath": "staticwebassets\\admin\\css\\util.css"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\font-awesome-4.7.0\\HELP-US-OUT.txt",
+      "PackagePath": "staticwebassets\\admin\\fonts\\font-awesome-4.7.0\\HELP-US-OUT.txt"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\font-awesome-4.7.0\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\admin\\fonts\\font-awesome-4.7.0\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\font-awesome-4.7.0\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\admin\\fonts\\font-awesome-4.7.0\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\font-awesome-4.7.0\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\font-awesome-4.7.0\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\admin\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\font-awesome-4.7.0\\less\\animated.less",
+      "PackagePath": "staticwebassets\\admin\\fonts\\font-awesome-4.7.0\\less\\animated.less"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\font-awesome-4.7.0\\less\\bordered-pulled.less",
+      "PackagePath": "staticwebassets\\admin\\fonts\\font-awesome-4.7.0\\less\\bordered-pulled.less"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\font-awesome-4.7.0\\less\\core.less",
+      "PackagePath": "staticwebassets\\admin\\fonts\\font-awesome-4.7.0\\less\\core.less"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\font-awesome-4.7.0\\less\\fixed-width.less",
+      "PackagePath": "staticwebassets\\admin\\fonts\\font-awesome-4.7.0\\less\\fixed-width.less"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\font-awesome-4.7.0\\less\\font-awesome.less",
+      "PackagePath": "staticwebassets\\admin\\fonts\\font-awesome-4.7.0\\less\\font-awesome.less"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\font-awesome-4.7.0\\less\\icons.less",
+      "PackagePath": "staticwebassets\\admin\\fonts\\font-awesome-4.7.0\\less\\icons.less"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\font-awesome-4.7.0\\less\\larger.less",
+      "PackagePath": "staticwebassets\\admin\\fonts\\font-awesome-4.7.0\\less\\larger.less"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\font-awesome-4.7.0\\less\\list.less",
+      "PackagePath": "staticwebassets\\admin\\fonts\\font-awesome-4.7.0\\less\\list.less"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\font-awesome-4.7.0\\less\\mixins.less",
+      "PackagePath": "staticwebassets\\admin\\fonts\\font-awesome-4.7.0\\less\\mixins.less"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\font-awesome-4.7.0\\less\\path.less",
+      "PackagePath": "staticwebassets\\admin\\fonts\\font-awesome-4.7.0\\less\\path.less"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\font-awesome-4.7.0\\less\\rotated-flipped.less",
+      "PackagePath": "staticwebassets\\admin\\fonts\\font-awesome-4.7.0\\less\\rotated-flipped.less"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\font-awesome-4.7.0\\less\\screen-reader.less",
+      "PackagePath": "staticwebassets\\admin\\fonts\\font-awesome-4.7.0\\less\\screen-reader.less"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\font-awesome-4.7.0\\less\\stacked.less",
+      "PackagePath": "staticwebassets\\admin\\fonts\\font-awesome-4.7.0\\less\\stacked.less"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\font-awesome-4.7.0\\less\\variables.less",
+      "PackagePath": "staticwebassets\\admin\\fonts\\font-awesome-4.7.0\\less\\variables.less"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\font-awesome-4.7.0\\scss\\_animated.scss",
+      "PackagePath": "staticwebassets\\admin\\fonts\\font-awesome-4.7.0\\scss\\_animated.scss"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\font-awesome-4.7.0\\scss\\_bordered-pulled.scss",
+      "PackagePath": "staticwebassets\\admin\\fonts\\font-awesome-4.7.0\\scss\\_bordered-pulled.scss"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\font-awesome-4.7.0\\scss\\_core.scss",
+      "PackagePath": "staticwebassets\\admin\\fonts\\font-awesome-4.7.0\\scss\\_core.scss"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\font-awesome-4.7.0\\scss\\_fixed-width.scss",
+      "PackagePath": "staticwebassets\\admin\\fonts\\font-awesome-4.7.0\\scss\\_fixed-width.scss"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\font-awesome-4.7.0\\scss\\_icons.scss",
+      "PackagePath": "staticwebassets\\admin\\fonts\\font-awesome-4.7.0\\scss\\_icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\font-awesome-4.7.0\\scss\\_larger.scss",
+      "PackagePath": "staticwebassets\\admin\\fonts\\font-awesome-4.7.0\\scss\\_larger.scss"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\font-awesome-4.7.0\\scss\\_list.scss",
+      "PackagePath": "staticwebassets\\admin\\fonts\\font-awesome-4.7.0\\scss\\_list.scss"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\font-awesome-4.7.0\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\admin\\fonts\\font-awesome-4.7.0\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\font-awesome-4.7.0\\scss\\_path.scss",
+      "PackagePath": "staticwebassets\\admin\\fonts\\font-awesome-4.7.0\\scss\\_path.scss"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\font-awesome-4.7.0\\scss\\_rotated-flipped.scss",
+      "PackagePath": "staticwebassets\\admin\\fonts\\font-awesome-4.7.0\\scss\\_rotated-flipped.scss"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\font-awesome-4.7.0\\scss\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\admin\\fonts\\font-awesome-4.7.0\\scss\\_screen-reader.scss"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\font-awesome-4.7.0\\scss\\_stacked.scss",
+      "PackagePath": "staticwebassets\\admin\\fonts\\font-awesome-4.7.0\\scss\\_stacked.scss"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\font-awesome-4.7.0\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\admin\\fonts\\font-awesome-4.7.0\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\font-awesome-4.7.0\\scss\\font-awesome.scss",
+      "PackagePath": "staticwebassets\\admin\\fonts\\font-awesome-4.7.0\\scss\\font-awesome.scss"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\montserrat\\Montserrat-Black.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\montserrat\\Montserrat-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\montserrat\\Montserrat-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\montserrat\\Montserrat-BlackItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\montserrat\\Montserrat-Bold.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\montserrat\\Montserrat-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\montserrat\\Montserrat-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\montserrat\\Montserrat-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\montserrat\\Montserrat-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\montserrat\\Montserrat-ExtraBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\montserrat\\Montserrat-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\montserrat\\Montserrat-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\montserrat\\Montserrat-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\montserrat\\Montserrat-ExtraLight.ttf"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\montserrat\\Montserrat-ExtraLightItalic.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\montserrat\\Montserrat-ExtraLightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\montserrat\\Montserrat-Italic.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\montserrat\\Montserrat-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\montserrat\\Montserrat-Light.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\montserrat\\Montserrat-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\montserrat\\Montserrat-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\montserrat\\Montserrat-LightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\montserrat\\Montserrat-Medium.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\montserrat\\Montserrat-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\montserrat\\Montserrat-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\montserrat\\Montserrat-MediumItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\montserrat\\Montserrat-Regular.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\montserrat\\Montserrat-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\montserrat\\Montserrat-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\montserrat\\Montserrat-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\montserrat\\Montserrat-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\montserrat\\Montserrat-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\montserrat\\Montserrat-Thin.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\montserrat\\Montserrat-Thin.ttf"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\montserrat\\Montserrat-ThinItalic.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\montserrat\\Montserrat-ThinItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\montserrat\\OFL.txt",
+      "PackagePath": "staticwebassets\\admin\\fonts\\montserrat\\OFL.txt"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\poppins\\Poppins-Black.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\Poppins-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\poppins\\Poppins-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\Poppins-BlackItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\poppins\\Poppins-Bold.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\Poppins-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\poppins\\Poppins-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\Poppins-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\poppins\\Poppins-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\Poppins-ExtraBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\poppins\\Poppins-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\Poppins-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\poppins\\Poppins-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\Poppins-ExtraLight.ttf"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\poppins\\Poppins-ExtraLightItalic.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\Poppins-ExtraLightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\poppins\\Poppins-Italic.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\Poppins-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\poppins\\Poppins-Light.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\Poppins-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\poppins\\Poppins-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\Poppins-LightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\poppins\\Poppins-Medium.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\Poppins-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\poppins\\Poppins-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\Poppins-MediumItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\poppins\\Poppins-Regular.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\Poppins-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\poppins\\Poppins-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\Poppins-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\poppins\\Poppins-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\Poppins-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\poppins\\Poppins-Thin.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\Poppins-Thin.ttf"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\fonts\\poppins\\Poppins-ThinItalic.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\poppins\\Poppins-ThinItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\images\\icons\\favicon.ico",
+      "PackagePath": "staticwebassets\\admin\\images\\icons\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\images\\img-01.png",
+      "PackagePath": "staticwebassets\\admin\\images\\img-01.png"
     },
     {
       "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\img\\undraw_posting_photo.svg",
@@ -49,6 +361,10 @@
       "PackagePath": "staticwebassets\\admin\\js\\demo\\datatables-demo.js"
     },
     {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\js\\main.js",
+      "PackagePath": "staticwebassets\\admin\\js\\main.js"
+    },
+    {
       "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\js\\sb-admin-2.js",
       "PackagePath": "staticwebassets\\admin\\js\\sb-admin-2.js"
     },
@@ -59,6 +375,10 @@
     {
       "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\js\\script.js",
       "PackagePath": "staticwebassets\\admin\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\vendor\\animate\\animate.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\animate\\animate.css"
     },
     {
       "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\vendor\\bootstrap\\js\\bootstrap.bundle.js",
@@ -467,6 +787,14 @@
     {
       "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\vendor\\chart.js\\Chart.min.js",
       "PackagePath": "staticwebassets\\admin\\vendor\\chart.js\\Chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\vendor\\css-hamburgers\\hamburgers.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\css-hamburgers\\hamburgers.css"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\vendor\\css-hamburgers\\hamburgers.min.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\css-hamburgers\\hamburgers.min.css"
     },
     {
       "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\vendor\\datatables\\dataTables.bootstrap4.css",
@@ -7331,6 +7659,26 @@
     {
       "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\vendor\\jquery\\jquery.slim.min.map",
       "PackagePath": "staticwebassets\\admin\\vendor\\jquery\\jquery.slim.min.map"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\vendor\\select2\\select2.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\select2\\select2.css"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\vendor\\select2\\select2.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\select2\\select2.js"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\vendor\\select2\\select2.min.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\select2\\select2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\vendor\\select2\\select2.min.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\select2\\select2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\admin\\vendor\\tilt\\tilt.jquery.min.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\tilt\\tilt.jquery.min.js"
     },
     {
       "Id": "C:\\Users\\rusla\\source\\repos\\Fiorello\\Fiorello\\wwwroot\\assets\\css\\main.css",
